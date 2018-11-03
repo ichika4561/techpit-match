@@ -70,3 +70,7 @@ gem "font-awesome-sass"
 gem 'carrierwave', '~> 1.0'
 gem 'rmagick'
 gem 'mini_magick'
+
+gem 'sqlite3', groups: %w(test development), require: false
+
+gem 'pg', groups: %w(production), require: false
